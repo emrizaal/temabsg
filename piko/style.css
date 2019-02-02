@@ -46,6 +46,25 @@
 	margin-bottom: 50px;
 }
 
+.c_ul{
+	list-style: none;
+	padding:0;
+}
+
+.c_ul > li{
+	display: inline-block;
+	margin-right:15px;
+	margin-bottom: 20px;
+}
+
+.c_ul > li img{
+	width: 100px;
+}
+
+.c_blogpost:not(:first-child){
+    margin-top:50px;
+}
+
 .jchart--donut--segment, .jchartpie--segment {
   transition: stroke-dasharray 1s ease;
 }
