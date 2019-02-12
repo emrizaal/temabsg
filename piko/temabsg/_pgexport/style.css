@@ -1,0 +1,92 @@
+/*
+Theme Name: ptbsg
+Theme URI: http://example.com
+Author: Your name
+Author URI: http://pinegrow.com/
+Description: This theme was created with Pinegrow Web Editor.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ptbsg
+*/
+.navbar {
+    min-height: 84px;
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.nav > li {
+    padding: 5px;
+}
+
+.navbar-nav {
+    margin-top: 5px;
+}
+
+.nav > li > a {
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 500;
+    color: #333 !important;
+}
+
+.c_p {
+    line-height: 2;
+    text-align: justify;
+    color: #777;
+    margin-top: 15px;
+}
+
+.c_bg_gray {
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.c_mt50 {
+    margin-top: 50px;
+}
+
+.c_mb50 {
+    margin-bottom: 50px;
+}
+
+.c_ul {
+    list-style: none;
+    padding: 0;
+}
+
+.c_ul > li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.c_ul > li img {
+    width: 100px;
+}
+
+.c_blogpost:not(:first-child) {
+    margin-top: 50px;
+}
+
+.jchart--donut--segment,
+.jchartpie--segment {
+    transition: stroke-dasharray 1s ease;
+}
+
+.jchart {
+    width: 400px;
+    height: 400px;
+}
+
+.jchart--body {
+    asd: 100%;
+    height: 100%;
+}
